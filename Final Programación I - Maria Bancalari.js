@@ -299,7 +299,7 @@ function menu() {
 
 function ordenarPySPorFecha(lista) {
     lista.sort((a, b) => new Date(b.fechaEstreno) - new Date(a.fechaEstreno));
-    console.log("PyS ordenadas por fecha de estreno (de lo más nuevo a lo más viejo):");
+    console.log("PyS ordenadas por fecha de estreno:");
     mostrarlista(lista);
 }
 
