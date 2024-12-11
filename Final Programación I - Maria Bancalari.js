@@ -241,7 +241,7 @@ function listarPySPorGenero(lista, genero) {
 function menu() {
     let opcion = '';
 
-    while (opcion !== '12') {
+    while (opcion !== '10') {
         opcion = prompt("Menú principal:\n1. Listar PyS almacenadas\n2. Añadir nueva PyS\n3. Buscar PyS por nombre\n4. Buscar índice de una PyS por nombre\n5. Modificar PyS\n6. Listar PyS por tipo\n7. Listar PyS por valoración\n8. Listar PyS por género\n9. Ordenar PyS por fecha de estreno\n10. Salir\nSeleccione una opción:");
 
         switch (opcion) {
